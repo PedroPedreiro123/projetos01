@@ -1,10 +1,10 @@
 function setup() {
   createCanvas(400, 400);
 }
-
+//jogaro
 let xJogador = [0, 0, 0, 0];
 let yJogador = [75, 150, 225, 300];
-let jogador = ["😎", "🤔", "👽", "🤓"];
+let jogador = ["😎", "🤔", "👽", "🤓"]; 
 let teclas = ["a", "s", "d", "f"];
 let quantidade = jogador.length;
 
@@ -22,7 +22,7 @@ function ativaJogo() {
     background("rgb(12,12,12)");
   }
 }
-
+//desenhos
 function desenhaJogadores() {
   textSize(40);
   for (let i = 0; i < quantidade; i++) {
